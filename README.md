@@ -1,1 +1,1 @@
-# RiddleVerse.com
+# Fun Riddles

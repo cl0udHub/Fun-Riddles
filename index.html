@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>RiddleVerse</title>
+    <meta name="description" content="Challenge your mind with intriguing riddles and puzzles in the RiddleVerse Riddle Game. Test your wit and have fun!">
+    <meta name="keywords" content="riddle game, puzzles, brain teasers, quiz, mind games">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="RiddleVerse Riddle Game">
+    <meta property="og:description" content="Challenge your mind with intriguing riddles and puzzles in the RiddleVerse Riddle Game. Test your wit and have fun!">
+    <meta name="twitter:title" content="RiddleVerse Riddle Game">
+    <meta name="twitter:description" content="Challenge your mind with intriguing riddles and puzzles in the RiddleVerse Riddle Game. Test your wit and have fun!">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>RiddleVerse</h1>
+    </header>
+    <main>
+        <div class="riddle">
+            <h2 id="riddleText">What comes once in a minute, twice in a moment, but never in a thousand years?</h2>
+            <p id="userPoints">Points: 0</p>
+            <ul class="choices">
+                <li><button onclick="checkAnswer('A')">A. The letter 'M'</button></li>
+                <li><button onclick="checkAnswer('B')">B. A birthday cake</button></li>
+                <li><button onclick="checkAnswer('C')">C. A shooting star</button></li>
+            </ul>
+            <p id="result"></p>
+        </div>
+        <button id="nextButton" onclick="nextRiddle()" style="display: none;">Next</button>
+        <button id="resetButton" onclick="resetGame()">Reset</button>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

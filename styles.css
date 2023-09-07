@@ -52,7 +52,7 @@ button:hover {
 }
 
 #nextButton{
-  margin-left: 230px;
+  margin: auto;
 } 
 #resetButton{
   margin-bottom: 15px;
